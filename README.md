@@ -71,6 +71,8 @@ Example Usage in YOLOv8:
 
 After generating the dataset, you can start training the YOLOv8 model:
 
+
+
 from ultralytics import YOLO
 
 # Load the pre-trained model or initialize a new one
@@ -78,6 +80,8 @@ model = YOLO('yolov8n.pt')
 
 # Train the model with the generated dataset
 model.train(data='dataset/bvn/yolo-bvn.yaml', epochs=200, batch=16, workers=1)
+
+
 
 Notes:
 
